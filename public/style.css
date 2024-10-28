@@ -1,0 +1,53 @@
+html{
+ margin: 0;
+ padding: 0;
+} 
+
+#navbar{
+    border-bottom: 1px solid;
+}
+
+#landing {
+    height: 500px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+}
+
+#landing .content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 30px;
+    margin-right: 25px;
+    font-size: 32px;
+    width: 720px;
+}
+
+#landing h1 {
+    margin-bottom: 20px; /* Add margin to separate h1 from the button */
+}
+
+#landing button {
+    width: auto; /* Set width to auto to avoid full width */
+    max-width: 200px; /* Set a maximum width for the button */
+}
+
+#landing img {
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 350px;
+    width: 500px;
+}
+
+#tentang {
+    height: 250px;
+    margin-left: 30px;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: flex-start; /* Align items at the start of the cross axis */
+}
+
+
